@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My CV Chernoblack</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="card info">
+        <img
+          class="avatar"
+          src="/images/chernyh.jpg"
+          alt="Фото Черных Александр Геннадьевича"
+        />
+        <div class="about-me">
+          <h1>Черных Александр Геннадьевич</h1>
+          <p>Дата рождения: 12 декабря 1966 года.</p>
+          <p>Телефон: +7(920) 617-35-96</p>
+          <p><e-mail>E-mail: chernoblack@mail.ru</e-mail></p>
+        </div>
+      </div>
+      <div class="card education">
+        <h4>Образование</h4>
+        <a href="https://bmstu.ru/" target="_blank"
+          >Московский Государственный Технический Университет имени Н.Э.
+          Баумана</a
+        >
+      </div>
+      <div class="card my-works">
+        <h2>Мой опыт работы</h2>
+        <table>
+          <th>Дата</th>
+          <th>Должность</th>
+          <th>Компания</th>
+          <tr>
+            <td>Ноябрь 2018 — август 2021</td>
+            <td>Заместитель начальника отдела информационных технологий</td>
+            <td>
+              <a href="https://kvt.su/" target="_blank">ООО "ПКФ Технакон"</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Сентябрь 2007 — август 2017</td>
+            <td>Начальник отдела автоматизации и связи</td>
+            <td>
+              <a href="http://www.obrbank.ru/" target="_blank"
+                >ф-л АКИБ «ОБРАЗОВАНИЕ» (ЗАО) в г. Калуга</a
+              >
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card last-work">
+        <h3>ООО "ПКФ Технакон"</h3>
+        <p><a href="https://kvt.su/" target="_blank">Завод "КВТ"</a></p>
+        <p>Ноябрь 2018 — август 2021</p>
+        <h4>Заместитель начальника отдела информационных технологий</h4>
+        <ul class="u-list">
+          <li>
+            Разработка и реализация IT проекта по модернизации существующих ЛВС
+            компании расположенных на пяти удалённых производственных,
+            складских, офисных площадках с использованием управляемых
+            коммутаторов CISCO, HP, Tp-Link L2+/L3 с поддержкой стандарта 802.Q
+            (VLAN), 802.1d,w,s (STP,RSTP,MSTP). Объединение этих площадок в
+            единую распределённую ЛВС по технологии IPSec через каналы Интернет
+            провайдеров, используя маршрутизаторы на базе серверов HP Proliant
+            dl180 и открытого ПО Pfsense
+          </li>
+          <br />
+          <li>
+            Слияние трёх разрозненных доменов AD компания в один домен, для
+            централизованного управления правами, доступом, применением
+            групповых политик.
+          </li>
+        </ul>
+      </div>
+      <div class="card more-about-me">
+        <h2>Более подробно обо мне в моих резюте</h2>
+        <a href="aboutme.html" target="_blank"> Мои резуме на hh.ru</a>
+      </div>
+      <div class="card feedback-with-me">
+        <form action="/images/chernyh1.jpg">
+          <label for="your-name">Ваше имя</label>
+          <input type="text" id="your-name" placeholder="Введите ваше имя..." />
+          <br />
+          <label for="your-email">Ваш Email</label>
+          <input type="email" id="your-email" placeholder="Введите email..." />
+          <br />
+          <label for="your-message">Ваше сообщение:</label>
+          <br />
+          <textarea
+            name="your-message"
+            id="your-message"
+            cols="32"
+            rows="2"
+          ></textarea>
+          <br />
+          <input type="submit" value="Связаться!" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

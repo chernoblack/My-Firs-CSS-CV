@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+body {
+  background-color: #f9f9fa;
+  color: #25282b;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: #25282b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: gray;
+}
+.main_container {
+  max-width: 720px;
+  margin: 10px auto 20px auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card {
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.avatar {
+  width: 180px;
+  border-radius: 28px;
+  /* box-shadow: 4px 4px 14px -4px #0f141e; */
+  box-shadow: rgb(38 38 38 / 40%) 4px 4px 8px;
+}
+.info {
+}
+.about-me {
+}
+.about-me p {
+  margin: 5px;
+}
+.education {
+}
+.my-works {
+}
+.last-work {
+}
+.more-about-me {
+}
+.feedback-with-me {
+}
+.u-list {
+  padding: 10px;
+  list-style-type: disc;
+}
+
+/* .info p {
+  color: #3d3c3c;
+  margin: 0px; 
+  font-style: italic;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.box-mode > div {
+  float: left;
+  background: black;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+} */
+/*  box-shadow: rgb(38 38 38 / 4%) 0px 1px 2px, rgb(38 38 38 / 16%) 0px 8px 16px; */
